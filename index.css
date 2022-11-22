@@ -1,0 +1,268 @@
+    * {
+        font-size: 12px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        
+        margin: 0;
+        padding: 0
+    }
+    .item {
+        font-weight: 400px;
+    }
+
+    #tituloh1 {
+        display: flex;
+        border: box black;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+
+    .conteudo1 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 2px solid black;
+        margin: 20px 40px;
+        border: box ;
+        align-items: flex-start;
+    }
+    .buttonpai {
+        gap: 10px;
+    }
+    .button {
+        border: 2px solid black;
+        margin: 20px 40px;
+        padding: 2000px;
+        
+        
+
+        border-radius: 700px;
+
+        background-color: white;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+    }
+
+    .button:hover {
+        cursor: pointer;
+    }
+
+    .page-404 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 600px
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none
+    }
+    
+    .global {
+        margin: 0 auto;
+    }
+    
+    .conteudo-pages {
+        min-height: 500px;
+        width: 998px;
+        margin: 0 auto
+    }
+    
+    .texto-pages {
+        font: 15px/25px Calibri;
+        color: #000;
+        text-align: justify
+    }
+    
+    .texto-pages h1 {
+        font: 25px Calibri;
+        padding-left: 20px;
+        margin-bottom: 15px;
+        font-weight: 700;
+        color: #000
+    }
+    
+    .texto-pages h2 {
+        font: 20px Calibri;
+        padding-left: 10px;
+        margin-bottom: 15px;
+        font-weight: 700;
+        color: #000
+    }
+    .historia {
+        display: flex;
+        width: 100%;
+        padding: 50px;
+        background-color: #000;
+        background-image: url(/imagens/cropped-1920-1200-463798.jpg);
+        background-attachment: fixed;
+        background-position: 30% 0;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        min-height: 300px;
+        margin: 100px 0;
+    }
+    .historia p {
+        color: azure;
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+    }
+    body {
+        overflow-x: hidden;
+        background-image: url(https://img.freepik.com/vetores-gratis/vetor-de-fundo-de-padrao-geometrico-branco-e-cinza_53876-136510.jpg?w=900&t=st=1668977185~exp=1668977785~hmac=ba42bb173cc5b48ad43f7f48891d90ae17a3e03dfbdd429eeab9f65231b31390);
+        background-size: 100%;
+        scroll-behavior: smooth;
+        
+    }
+    
+    .linha-topo-total {
+        background: #053957;
+    }
+    
+    .linha-topo {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .linha-topo .item {
+        padding: 10px;
+        color: rgb(247, 239, 239);
+        font: 18px calibri;
+        font-size: 20px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        
+        margin: 0px;
+       
+       
+    }
+    
+    .linha-topo .item i {
+        color: inherit;
+        font-size: 25px;
+        vertical-align: text-top;
+    }
+    
+    .topo-total {
+        padding: 30px 0;
+    }
+    
+    .topo {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 50px;
+        
+    }
+   
+   
+    .menu-total {
+        display: flex;
+        align-items: center
+        
+    }
+    
+    .menu li {
+        display: inline-block;
+        margin: 10px 0;
+        padding: 0 20px
+    }
+    
+    .menu li a {
+        font: 18px calibri;
+        color: #999
+    }
+    
+    .menu li a:hover {
+        color: #0A6FA5
+    }
+    
+    .menu li a.ativo {
+        color: #0A6FA5
+    }
+
+
+    .rodape {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center
+    }
+    
+    .rodape > div {
+        padding: 20px 0;
+        font: 20px calibri;
+        color: #878787;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    
+    .rodape .social img {
+        padding: 5px
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    .logo-pw {
+        display: table!important;
+        padding: 0!important
+    }
+    .g-recaptcha{
+        display: flex;
+        justify-content: center;
+    }
+    * {
+            max-width: 100%;
+            box-sizing: border-box
+        }
+        .conteudo-pages {
+            padding: 2%
+        }
+        .menu-total {
+            display: block;
+            width: 100%
+        }
+        .menu ul{
+            display: flex;
+            justify-content: center;
+        }
+        .menu li {
+            margin-left: 0;
+            margin-right: 0;
+            text-align: center
+        }
+        .rodape div {
+            width: 100%;
+            margin: 0 0;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .topo > div{
+            margin: 10px; 
+        }
+    
+    
+    
+    
+    
+   
